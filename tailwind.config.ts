@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				heading: ['var(--font-heading)'],
+				body: ['var(--font-body)'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,7 +65,44 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				/* Social Work Color Palette */
+				'healing-blue': {
+					DEFAULT: 'hsl(var(--healing-blue))',
+					light: 'hsl(var(--healing-blue-light))',
+					dark: 'hsl(var(--healing-blue-dark))'
+				},
+				'growth-green': {
+					DEFAULT: 'hsl(var(--growth-green))',
+					light: 'hsl(var(--growth-green-light))',
+					soft: 'hsl(var(--growth-green-soft))'
+				},
+				'warm-sage': {
+					DEFAULT: 'hsl(var(--warm-sage))',
+					light: 'hsl(var(--warm-sage-light))'
+				},
+				'compassion-amber': {
+					DEFAULT: 'hsl(var(--compassion-amber))',
+					light: 'hsl(var(--compassion-amber-light))'
+				},
+				'trust-navy': {
+					DEFAULT: 'hsl(var(--trust-navy))',
+					light: 'hsl(var(--trust-navy-light))'
 				}
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-card': 'var(--gradient-card)',
+				'gradient-section': 'var(--gradient-section)'
+			},
+			boxShadow: {
+				'gentle': 'var(--shadow-gentle)',
+				'card': 'var(--shadow-card)',
+				'hero': 'var(--shadow-hero)'
+			},
+			transitionProperty: {
+				'smooth': 'var(--transition-smooth)',
+				'gentle': 'var(--transition-gentle)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

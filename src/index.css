@@ -8,35 +8,76 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Professional Social Work Color Palette */
+    --background: 252 100% 99%;
+    --foreground: 213 27% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 213 27% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 213 27% 20%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Calming Blue Primary */
+    --primary: 210 85% 45%;
+    --primary-foreground: 0 0% 100%;
+    
+    /* Soft Green Secondary */
+    --secondary: 142 30% 92%;
+    --secondary-foreground: 142 30% 25%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Warm Neutral Muted */
+    --muted: 35 15% 95%;
+    --muted-foreground: 213 15% 50%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Gentle Accent */
+    --accent: 35 25% 92%;
+    --accent-foreground: 213 27% 20%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --border: 35 15% 88%;
+    --input: 35 15% 92%;
+    --ring: 210 85% 45%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+    
+    /* Custom Social Work Design Tokens */
+    --healing-blue: 210 85% 45%;
+    --healing-blue-light: 210 85% 85%;
+    --healing-blue-dark: 210 85% 35%;
+    
+    --growth-green: 142 50% 50%;
+    --growth-green-light: 142 40% 85%;
+    --growth-green-soft: 142 30% 92%;
+    
+    --warm-sage: 95 15% 70%;
+    --warm-sage-light: 95 15% 90%;
+    
+    --compassion-amber: 35 75% 75%;
+    --compassion-amber-light: 35 50% 92%;
+    
+    --trust-navy: 213 45% 25%;
+    --trust-navy-light: 213 30% 85%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--healing-blue)) 0%, hsl(var(--growth-green)) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(var(--background)) 0%, hsl(var(--healing-blue-light)) 100%);
+    --gradient-section: linear-gradient(180deg, hsl(var(--background)) 0%, hsl(var(--warm-sage-light)) 100%);
+    
+    /* Shadows */
+    --shadow-gentle: 0 4px 6px -1px hsl(var(--healing-blue) / 0.1), 0 2px 4px -1px hsl(var(--healing-blue) / 0.06);
+    --shadow-card: 0 10px 15px -3px hsl(var(--healing-blue) / 0.1), 0 4px 6px -2px hsl(var(--healing-blue) / 0.05);
+    --shadow-hero: 0 25px 50px -12px hsl(var(--healing-blue) / 0.25);
+    
+    /* Typography */
+    --font-heading: 'Libre Baskerville', serif;
+    --font-body: 'Inter', sans-serif;
+    
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-gentle: all 0.2s ease-out;
 
     --sidebar-background: 0 0% 98%;
 
