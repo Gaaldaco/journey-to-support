@@ -16,7 +16,7 @@ const Footer = () => {
               </div>
               <p className="text-white/80 leading-relaxed">
                 Dedicated to empowering lives through compassionate social work practice 
-                and community support.
+                and community support. Test
               </p>
             </div>
 
